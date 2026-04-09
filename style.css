@@ -1,0 +1,63 @@
+body {
+    font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", Arial, sans-serif;
+    width: 380px;
+    padding: 12px;
+    background: #f4f6f8;
+    font-size: 15px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  h3 {
+    margin-top: 12px;
+  }
+  
+  .card {
+    background: white;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  
+  textarea {
+    width: 100%;
+    height: 60px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  /* ✅ SLIDER BAR */
+  .row {
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    font-size: 13px;
+    margin-bottom: 3px;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 8px;
+    background: #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .fill {
+    height: 8px;
+    width: 0%;
+    background: #4caf50;
+    transition: width 0.8s ease;
+  }
